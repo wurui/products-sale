@@ -1,3 +1,75 @@
 .oxmod-products-sale{
-/* CSS */
- }
+  /* CSS */
+  background-color: #f4f4f4;
+  overflow: hidden;
+  li{
+    background-color: #fff;
+    color:#555;
+    width:49%;
+    float:left;
+    height:260px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    -webkit-box-sizing: border-box;
+
+    &:nth-child(2n-1){
+      float:left;
+      
+    }
+    &:nth-child(2n){
+      float: right;
+    }
+  }
+  .title{
+    font-size:12px;
+    font-weight: 400;
+    text-align: left;
+    margin:5px;
+
+    overflow: hidden;
+
+    height: 14px;
+  }
+  .img{
+    display: inline-block;
+    width:100%;
+    height:0;
+    padding-bottom: 120%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .brief{
+    color:#999;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin:5px;
+
+  }
+  .price{
+    margin:5px;
+    em{
+      font-size:16px;
+      color:#f20;
+      font-style: normal;
+      font-weight: 400;
+      &:before{
+        content: '\a5';
+        font-size:12px;
+      }
+    }
+    del{
+      color:#ccc;
+      font-size:12px;
+      &:before{
+        content: '\a5';
+        font-size:12px;
+      }
+      
+    }
+
+
+  }
+}
