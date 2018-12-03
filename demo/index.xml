@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+        <nick>wurui</nick>
+    </login>
+    <p>
+        <title>products-sale demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+        <ui-sale>
+            <i>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/29uhgj9mzTjouwic2tRwkj2Agdb-1000.png</img>
+                <orig_price>19.9</orig_price>
+                <price>28</price>
+                <title>纯色毛绒哈居拖鞋</title>
+                <href></href>
+                <slogan>居家伴侣</slogan>
+            </i>
+            <i>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/29uhgj6t6TjouwiewmRxfptAocu-1000.png</img>
+                <orig_price>129</orig_price>
+                <price>89</price>
+                <title>小熊猫紫砂炖锅</title>
+                <href></href>
+                <slogan>冬季养生火锅</slogan>
+            </i>
+            <i>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/29uhgj7cxTjouwiecvRd2o6Ag6g-1000.png</img>
+                <orig_price>220</orig_price>
+                <price>176</price>
+                <title>山水复古莫扎特收音机</title>
+                <href></href>
+                <slogan>你必须懂得的情怀</slogan>
+            </i>
+            <i>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/29uhgj7rpTjouwidy3Rt1vgAe10-1000.png</img>
+                <orig_price>132</orig_price>
+                <price>78</price>
+                <title>Ankoo充电器充电宝</title>
+                <href></href>
+                <slogan>20000mAh快充一小时放电一整天</slogan>
+            </i>
+            <i>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/29uhgj88vTjouwidgxRg5ftA80l-1000.png</img>
+                <orig_price>899</orig_price>
+                <price>688</price>
+                <title>亚马逊Kindle Paperwhite7</title>
+                <href></href>
+                <slogan>亚洲首发最新款</slogan>
+            </i>
+            <i>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/29uhgjajyTjouwib5uRu7zcAbw6-1000.png</img>
+                <orig_price>1280</orig_price>
+                <price>285</price>
+                <title>NSBL万向轮拉杆旅行箱</title>
+                <href></href>
+                <slogan>小身材大容量　伴你一路顺风</slogan>
+            </i>
+        </ui-sale>
+    </data>
+</root>
